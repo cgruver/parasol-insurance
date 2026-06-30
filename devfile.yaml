@@ -86,9 +86,7 @@ commands:
       label: "Start podman socket"
       component: development-tooling
       commandLine: |
-        # Use podman.orig directly because the UDI entrypoint symlinks podman
-        # to /home/tooling/.local/bin/, which isn't on PATH during postStart.
-        /usr/bin/podman.orig system service --time=0 unix:///tmp/podman.sock &
+        podman system service --time=0 unix:///tmp/podman.sock &
         sleep 2
         if [ -S /tmp/podman.sock ]; then
           echo "Podman socket ready"
