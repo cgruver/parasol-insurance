@@ -24,7 +24,6 @@
 	"settings": {
 		"workbench.colorTheme": "Default Dark Modern",
 		"editor.wordWrap": "on",
-		"files.autoSave": "on",
 		"java.server.launchMode": "Standard",
 		"java.configuration.updateBuildConfiguration": "automatic",
 		"java.compile.nullAnalysis.mode": "automatic",
