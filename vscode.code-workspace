@@ -25,6 +25,7 @@
 		"java.server.launchMode": "Standard",
 		"java.configuration.updateBuildConfiguration": "automatic",
 		"java.compile.nullAnalysis.mode": "automatic",
+		"quarkus.tools.alwaysShowWelcomePage": false,
 		"chat.disableAIFeatures": true
 	}
 }
